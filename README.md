@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/stevenHuang0604/Huddle-landing-page-curved-section)
+- Live Site URL: [live site URL](https://huddle-landingpage-curve-stevenhuang.netlify.app/)
 
 ## My process
 
