@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <meta name="description" content="Huddle landing page with curved sections" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="author" content="Steven Huang" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+  </head>
+  <body>
+    <header role="banner" class="header">
+      <div class="header__logo">
+        <img src="./images/logo.svg" alt="Huddle App logo" />
+      </div>
+
+      <a href="#" class="cta header__cta">Try it free</a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__overview">
+          <h1 class="heading__primary">Build The Community Your Fans Will Love</h1>
+          <div class="hero__text">
+            Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create
+            connections with your users as you engage in genuine discussion.
+          </div>
+          <a href="#" class="cta hero__cta">Get Started For Free</a>
+        </div>
+
+        <div class="hero__img">
+          <img src="./images/screen-mockups.svg" alt="Huddle app screen mockup" />
+        </div>
+
+        <div class="hero__stats">
+          <div class="stat">
+            <div class="stat__icon">
+              <img src="./images/icon-communities.svg" alt="Communities icon" />
+            </div>
+            <div class="stat__number">1.4k+</div>
+            <div class="stat__description">Communities Formed</div>
+          </div>
+
+          <div class="stat">
+            <div class="stat__icon">
+              <img src="./images/icon-messages.svg" alt="Messages icon" />
+            </div>
+            <div class="stat__number">2.7m+</div>
+            <div class="stat__description">Messages Sent</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="feature">
+          <picture>
+            <source media="(max-width:650px)" srcset="./images/bg-section-top-mobile-1.svg" />
+            <img src="./images/bg-section-top-desktop-1.svg" alt="Curve section top 1" />
+          </picture>
+          <div class="feature__content feature__content--1">
+            <div class="feature__overview">
+              <h2 class="heading__secondary">Grow Together</h2>
+              <div class="feature__text">
+                Generate meaningful discussions with your audience and build a strong, loyal community. Think of the
+                insightful conversations you miss out on with a feedback form.
+              </div>
+            </div>
+            <div class="feature__img">
+              <img src="./images/illustration-grow-together.svg" alt="Grow Together" />
+            </div>
+          </div>
+
+          <picture>
+            <source media="(max-width:650px)" srcset="./images/bg-section-bottom-mobile-1.svg" />
+            <img src="./images/bg-section-bottom-desktop-1.svg" alt="Curve section bottom 1" />
+          </picture>
+        </div>
+
+        <div class="feature">
+          <div class="feature__content feature__content--2">
+            <div class="feature__overview">
+              <h2 class="heading__secondary">Flowing Conversations</h2>
+              <div class="feature__text">
+                You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time
+                loading for a more natural flow.
+              </div>
+            </div>
+            <div class="feature__img">
+              <img src="./images/illustration-flowing-conversation.svg" alt="Flowing Conversations" />
+            </div>
+          </div>
+        </div>
+
+        <div class="feature">
+          <picture>
+            <source media="(max-width:650px)" srcset="./images/bg-section-top-mobile-2.svg" />
+            <img src="./images/bg-section-top-desktop-2.svg" alt="Curve section top 2" />
+          </picture>
+          <div class="feature__content feature__content--3">
+            <div class="feature__overview">
+              <h2 class="heading__secondary">Your Users</h2>
+              <div class="feature__text">
+                It takes no time at all to integrate Huddle with your app's authentication solution. This means, once
+                signed in to your app, your users can start chatting immediately.
+              </div>
+            </div>
+            <div class="feature__img">
+              <img src="./images/illustration-your-users.svg" alt="Your Users" />
+            </div>
+          </div>
+          <picture>
+            <source media="(max-width:650px)" srcset="./images/bg-section-bottom-mobile-2.svg" />
+
+            <img src="./images/bg-section-bottom-desktop-2.svg" alt="Curve section bottom 2" />
+          </picture>
+        </div>
+      </section>
+
+      <section class="try">
+        <h2 class="heading__secondary">Ready To Build Your Community?</h2>
+        <a class="cta try__cta" href="#">Get Started For Free</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <picture>
+        <source media="(max-width:650px)" srcset="./images/bg-footer-top-mobile.svg" />
+        <img src="./images/bg-footer-top-desktop.svg" alt="Curve footer top" />
+      </picture>
+      <div class="footer__content">
+        <div class="footer__overview">
+          <img src="./images/logo.svg" alt="Huddle app logo" />
+          <div class="footer__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a,
+            ultrices quis sem.
+          </div>
+          <div class="footer__info">
+            <div class="footer__info--tel">
+              <img src="./images/icon-phone.svg" alt="Phone icon" />
+              Phone: +1-543-123-4567
+            </div>
+
+            <div class="footer__info--mail">
+              <img src="./images/icon-email.svg" alt="Message icon" />
+              example@huddle.com
+            </div>
+          </div>
+
+          <div class="social__links">
+            <a href="#" class="social__link"
+              ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"
+                />
+              </svg>
+            </a>
+            <a href="#" class="social__link"
+              ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                />
+              </svg>
+            </a>
+            <a href="#" class="social__link"
+              ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM351.3 199.3v0c0 86.7-66 186.6-186.6 186.6c-37.2 0-71.7-10.8-100.7-29.4c5.3 .6 10.4 .8 15.8 .8c30.7 0 58.9-10.4 81.4-28c-28.8-.6-53-19.5-61.3-45.5c10.1 1.5 19.2 1.5 29.6-1.2c-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3c-9-6-16.4-14.1-21.5-23.6s-7.8-20.2-7.7-31c0-12.2 3.2-23.4 8.9-33.1c32.3 39.8 80.8 65.8 135.2 68.6c-9.3-44.5 24-80.6 64-80.6c18.9 0 35.9 7.9 47.9 20.7c14.8-2.8 29-8.3 41.6-15.8c-4.9 15.2-15.2 28-28.8 36.1c13.2-1.4 26-5.1 37.8-10.2c-8.9 13.1-20.1 24.7-32.9 34c.2 2.8 .2 5.7 .2 8.5z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__subscribe">
+          <h3 class="heading__tertiary">Newsletter</h3>
+          <div class="footer__text">
+            To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam
+            or pass on your email address
+          </div>
+
+          <div class="footer__send">
+            <div class="footer__form">
+              <input type="email" class="footer__input" id="email" />
+              <label for="email" class="footer__label">Check your email please</label>
+            </div>
+            <a href="#" class="cta footer__cta">Subscribe</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
